@@ -1,4 +1,4 @@
-Página en github pages https://jpachecogithub.github.io/index.html
+Página en github pages 
 
 Fork y commit 1: https://github.com/JpachecoGitHub/portafolio-y-cv
 

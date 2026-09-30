@@ -1,100 +1,177 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>Mi Portafolio</title>
-</head>
-<body>
-    <nav class="navbar navbar-expand-md bg-primary navbar-primary">
-        <div class="container-fluid p-1 bg-primary">
-          <a href="#">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-center pe-3" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Ver CV</a>
-              </li>
-            </ul>
-          </div>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md bg-primary">
+      <div class="container-fluid p-1 bg-primary">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-center pe-3"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link enlace-blanco" href="index.html"> Ver CV </a>
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
 
-
-    <div class="container-fluid mt-2 btn btn-secondary">
-        <div class="row">
-          <div class="col-md-8 col-lg-6">
-            <h2>Mi Nombre</h2>
-            <h2>Jose Pacheco Belisario</h2>
-            <h6>Soy Estudiante de Frontend Developer</h6>
-            <hr>
-            <div class="btn-group" role="group" aria-label="Redes Sociales">
-              <a class="btn btn-primary" href="https://github.com/JpachecoGitHub" target="_blank">Github</a>
-              <a class="btn btn-secondary" href="http://www.linkedin.com/in/jose-pacheco-b-3a1895260" target="_blank">Linkedin</a>
-            </div>
-            <h3 class="texto-blanco">Tecnologias</h3>
-            <div class="col-md-8 col-lg-6 logos-container" class="col-md-8 col-lg-6 d-flex justify-content-center align-items-center">
-              <img src="assets/imgs/bootstrap-logo.svg" alt="Logo de bootstrap" lass="img-fluid img-thumbnail" width="70">
-              <img src="assets/imgs/download.png" alt="Logo de CSS" lass="img-fluid img-thumbnail" width="40">
-            </div>
+    <div class="container-fluid mt-2">
+      <div class="row">
+        <div class="col-md-8 col-lg-6">
+          <h2>Jose Pacheco Belisario</h2>
+          <p class="lead">Estudiante de Analista Programador | Cloud & AWS</p>
+          <hr />
+          <div class="btn-group" role="group" aria-label="Redes Sociales">
+            <a
+              class="btn btn-primary"
+              href="https://github.com/JpachecoGitHub"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              class="btn btn-secondary"
+              href="https://www.linkedin.com/in/jose-pacheco-b-3a1895260"
+              target="_blank"
+            >
+              Linkedin
+            </a>
           </div>
-
-          
-          <div class="col-md-8 col-lg-6 d-flex justify-content-center align-items-center">
-            <img src="assets/imgs/168350b1-c05c-4278-85b2-f3e91fa3862d.jpg" alt="Mi Foto de Pelfil" class="img-fluid img-thumbnail" width="350" height="350">
-          </div>
-        </div>
-    </div>
-    
-    <div class="container mt-2">
-      <h1>Proyectos</h1>
-      <div class="row row-cols-3">
-        <div class="col-12 col-md-4 col-lg-4">
-          <div class="card" style="width: 18rem;">
-              <img src="assets/imgs/Captura de pantalla 2024-09-20 155402.jpg" alt="Foto proyecto #1" style="margin-top: 10px;">
-              <div class="card-body">
-              <hr>
-              <a href="https://github.com/JpachecoGitHub" target="_blank"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Logo de GitHub" width="30"></a>
-              </div>
-          </div>
-        </div>
-
-        <div class="col-12 col-md-4 col-lg-4">
-          <div class="card" style="width: 18rem;">
-              <img src="assets/imgs/Captura de pantalla 2024-09-20 112956.jpg" alt="Foto proyecto #2" style="margin-top: 10px;">
-              <div class="card-body">
-                <hr>
-                <a href="https://github.com/JpachecoGitHub" target="_blank"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Logo de GitHub" width="30"></a>
-              </div>
+          <h3>Tecnologias</h3>
+          <div class="tecnologias">
+            <span> HTML </span>
+            <span> CSS </span>
+            <span> JavaScript </span>
+            <span> Bootstrap </span>
+            <span> Python </span>
+            <span> Vue.js </span>
+            <span> Git </span>
+            <span> GitHub </span>
+            <span> AWS </span>
           </div>
         </div>
 
-        <div class="col-12 col-md-4 col-lg-4">
-          <div class="card" style="width: 18rem;">
-            <a href="https://jpachecogithub.github.io/index.html" target="_blank"><img src="assets/imgs/Captura de pantalla 2024-09-20 174327.jpg" alt="Foto proyecto #3" style="margin-top: 10px;" width="1000"></a>
-              <div class="card-body">
-                <hr>
-                <a href="https://github.com/JpachecoGitHub/cv-desafio-5" target="_blank"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Logo de GitHub" width="30"></a>
-              </div>
-            </div>
+        <div
+          class="col-md-8 col-lg-6 d-flex justify-content-center align-items-center"
+        >
+          <img
+            src="assets/imgs/168350b1-c05c-4278-85b2-f3e91fa3862d.jpg"
+            alt="Mi Foto de Pelfil"
+            class="foto-portafolio img-fluid img-thumbnail"
+          />
         </div>
-
       </div>
     </div>
 
+    <div class="container mt-2">
+      <h1 class="titulo-proyectos">Proyectos y trabajos de formación</h1>
+      <div class="row g-4">
 
-    <footer class="text-center mt-2 border bg-primary pt-4">
-      <p>&copy; Jp 2024.Todos los derechos reservados.</p>
-    </footer>
-    
+        <div class="col-12 col-md-4">
+          <div class="card h-100">
+            <img src="assets/imgs/cv-portafolio.png" alt="CV y Portafolio Web" class="imagen-proyecto" />
 
-</body>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">CV y Portafolio Web</h5>
+              <p class="card-text">
+                Desarrollo de un sitio web personal utilizando HTML, CSS, Bootstrap y JavaScript,
+                creado como parte de mi formación y orientado a presentar mi perfil y proyectos.
+              </p>
+              <a
+                href="https://jpachecogithub.github.io/index.html"
+                target="_blank"
+                class="btn btn-primary mt-auto"
+              >
+                Ver proyecto
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="card h-100">
+            <img
+              src="assets/imgs/Vue.js.png"
+              alt="proyecto vue.js"
+              class="imagen-proyecto"
+            />
+
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Proyecto Vue.js</h5>
+              <p class="card-text">
+                Aplicación web desarrollada con Vue.js y Bootstrap como parte de mi formación,
+                enfocada en el uso de componentes y desarrollo de interfaces dinámicas.
+              </p>
+              <a
+                href="https://vue-project-jp.netlify.app/"
+                target="_blank"
+                class="btn btn-primary mt-auto"
+              >
+                Ver proyecto
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="card h-100">
+            <img
+              src="assets/imgs/ImagenDockerK8s.png"
+              alt="Guía de Docker y Kubernetes"
+              class="imagen-proyecto"
+            />
+
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Guía Docker + Kubernetes</h5>
+
+              <p class="card-text">
+                Guía práctica paso a paso sobre conceptos y uso de Docker y Kubernetes,
+                desarrollada como parte de mi formación en tecnologías Cloud.
+              </p>
+
+              <a
+                href="assets/docs/Jose_Pacheco.pdf"
+                target="_blank"
+                class="btn btn-primary mt-auto"
+              >
+                Ver guía PDF
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="assets/js/footer.js"></script>
+  </body>
 </html>
