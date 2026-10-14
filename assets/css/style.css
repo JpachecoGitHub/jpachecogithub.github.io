@@ -126,3 +126,134 @@ ul, ol {
   transform: scale(1.05);
 }
 
+.github-icon {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: white;
+  padding: 3px;
+  flex-shrink: 0;
+}
+
+.github-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.github-icon span {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease;
+}
+
+.github-icon:hover span {
+  opacity: 1;
+  visibility: visible;
+}
+
+.github-icon:hover {
+  transform: scale(1.15);
+  cursor: pointer;
+}
+
+/* ===========
+  MODO MATRIX
+  =========== */
+
+body.matrix-mode {
+  background-color: #000;
+  color: #00ff41;
+}
+
+body.matrix-mode h1,
+body.matrix-mode h2,
+body.matrix-mode h3,
+body.matrix-mode p,
+body.matrix-mode li {
+  color: #00ff41;
+}
+
+body.matrix-mode a {
+  color: #00ff41;
+}
+
+body.matrix-mode .contenido-cv {
+  position: relative;
+  z-index: 2;
+}
+
+body.matrix-mode .presentacion,
+body.matrix-mode .container {
+  position: relative;
+  z-index: 2;
+}
+
+/* Lluvia Matrix */
+
+#matrix-rain {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 1;
+}
+
+body.matrix-mode #matrix-rain {
+  display: block;
+}
+
+.matrix-column {
+  position: absolute;
+  top: -100%;
+  color: #00ff41;
+  font-family: monospace;
+  font-size: 18px;
+  line-height: 18px;
+  text-shadow: 0 0 8px #00ff41;
+  animation: matrix-caida linear infinite;
+}
+
+@keyframes matrix-caida {
+  from {
+    transform: translateY(-100%);
+  }
+
+  to {
+    transform: translateY(200vh);
+  }
+}
+
+Botón Modo Matrix 
+
+#btn-matrix {
+  background-color: #000;
+  color: #00ff41;
+  border: 1px solid #00ff41;
+  border-radius: 5px;
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#btn-matrix:hover {
+  background-color: #00ff41;
+  color: #000;
+} 

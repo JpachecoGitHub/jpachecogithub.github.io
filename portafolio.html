@@ -15,7 +15,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="assets/css/style.css" />
-    <title>Mi Portafolio</title>
+    <title> Mi Portafolio </title>
   </head>
   <body>
     <nav class="navbar navbar-expand-md bg-primary">
@@ -45,13 +45,22 @@
       </div>
     </nav>
 
+    <!-- <div id="matrix-rain"></div> -->
+
     <div class="container-fluid mt-2">
       <div class="row">
         <div class="col-md-8 col-lg-6">
           <h2>Jose Pacheco Belisario</h2>
-          <p class="lead">Estudiante de Analista Programador | Cloud & AWS</p>
+          <p class="lead"> Estudiante de Analista Programador | Desarrollo de Software | Cloud & AWS </p>
           <hr />
-          <div class="btn-group" role="group" aria-label="Redes Sociales">
+
+          <!-- <li class="nav-item">
+              <button id="btn-matrix" type="button">
+                🟢 Modo Matrix
+              </button>
+          </li>
+
+           <div class="btn-group" role="group" aria-label="Redes Sociales">
             <a
               class="btn btn-primary"
               href="https://github.com/JpachecoGitHub"
@@ -66,18 +75,20 @@
             >
               Linkedin
             </a>
-          </div>
+          </div> -->
+
           <h3>Tecnologias</h3>
           <div class="tecnologias">
             <span> HTML </span>
             <span> CSS </span>
             <span> JavaScript </span>
-            <span> Bootstrap </span>
             <span> Python </span>
             <span> Vue.js </span>
             <span> Git </span>
             <span> GitHub </span>
             <span> AWS </span>
+            <span> Docker </span>
+            <span> Kubernetes </span>
           </div>
         </div>
 
@@ -94,19 +105,32 @@
     </div>
 
     <div class="container mt-2">
-      <h1 class="titulo-proyectos">Proyectos y trabajos de formación</h1>
+      <h1 class="titulo-proyectos"> Proyectos y trabajos de formación </h1>
       <div class="row g-4">
 
         <div class="col-12 col-md-4">
           <div class="card h-100">
-            <img src="assets/imgs/cv-portafolio.png" alt="CV y Portafolio Web" class="imagen-proyecto" />
-
+            <img
+              src="assets/imgs/cv-portafolio.png"
+              alt="CV y Portafolio Web"
+              class="imagen-proyecto"
+            />
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">CV y Portafolio Web</h5>
+              <div class="d-flex justify-content-between align-items-center">
+                <h5 class="card-title"> CV y Portafolio Web </h5>
+                <a
+                  href="https://github.com/JpachecoGitHub/jpachecogithub.github.io"
+                  target="_blank"
+                  class="github-icon"
+                >
+                  <img src="assets/imgs/GitHub-Mark.png" alt="GitHub" />
+                  <span> Ver GitHub </span>
+                </a>
+              </div>
               <p class="card-text">
-                Sitio web personal desarrollado como parte de mi formación, utilizando
-                HTML, CSS, Bootstrap y JavaScript para presentar mi perfil, formación
-                y proyectos.
+                Sitio web personal desarrollado como parte de mi formación,
+                utilizando HTML, CSS, Bootstrap y JavaScript para presentar mi
+                perfil, formación y proyectos.
               </p>
               <a
                 href="https://jpachecogithub.github.io/index.html"
@@ -121,15 +145,24 @@
 
         <div class="col-12 col-md-4">
           <div class="card h-100">
-            <img
-              src="assets/imgs/Vue.js.png" alt="proyecto vue.js" class="imagen-proyecto"/>
+            <img src="assets/imgs/Vue.js.png" alt="proyecto vue.js" class="imagen-proyecto"/>
 
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Proyecto Vue.js</h5>
+              <div class="d-flex justify-content-between align-items-center">
+                <h5 class="card-title">Proyecto Vue.js</h5>
+                <a
+                  href="https://github.com/JpachecoGitHub/project-vue"
+                  target="_blank"
+                  class="github-icon"
+                >
+                  <img src="assets/imgs/GitHub-Mark.png" alt="GitHub" />
+                  <span> Ver GitHub </span>
+                </a>
+              </div>
               <p class="card-text">
-                Aplicación web desarrollada con Vue.js y Bootstrap como parte de mi formación,
-                utilizando componentes, manejo de datos y una interfaz dinámica para simular
-                un carrito de compras.
+                Aplicación web desarrollada con Vue.js y Bootstrap como parte de
+                mi formación, utilizando componentes, manejo de datos y una
+                interfaz dinámica para simular un carrito de compras.
               </p>
               <a
                 href="https://vue-project-jp.netlify.app/"
@@ -154,9 +187,9 @@
               <h5 class="card-title">Guía Docker + Kubernetes</h5>
 
               <p class="card-text">
-                Guía práctica desarrollada como parte de mi formación en tecnologías Cloud,
-                donde documento paso a paso conceptos y procedimientos básicos de Docker y
-                Kubernetes.
+                Guía práctica desarrollada como parte de mi formación en
+                tecnologías Cloud, donde documento paso a paso conceptos y
+                procedimientos básicos de Docker y Kubernetes.
               </p>
 
               <a
@@ -173,5 +206,6 @@
     </div>
 
     <script src="assets/js/footer.js"></script>
+    <!-- <script src="assets/js/matrix.js"></script> -->
   </body>
 </html>
